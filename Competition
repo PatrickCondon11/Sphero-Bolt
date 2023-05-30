@@ -14,5 +14,6 @@ async function startProgram() {
 	await delay(4)
 	await Sound.play(true)
 	await delay(4)
+	await roll(180, 100, .7)
 }
 
