@@ -57,5 +57,11 @@
 	//move away from center of green
 	await roll(135, 30,1.25)
 	await delay(1)
+	//get away from green
+	await roll(45,100,.7)
+	await delay(1)
+	//skinny small straight
+	await roll(350,75,.7)
+	await delay(1)
 }
 
