@@ -65,5 +65,9 @@
 	await delay(1)
 	//make last sound
 	await Sound.Animal.Donkey.play(true)
+	//last straight
+	await roll(35,100,.9)
+	//Color purple
+	setMainLed({r:255, g:0, b:255})
 }
 
