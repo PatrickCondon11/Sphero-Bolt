@@ -46,5 +46,8 @@
 	//move to get centereed for small straight away to get to green
 	await roll(135, 40,1,0.83)
 	await delay(1)
+	//straight away to get to green
+	await roll(225, 75,.53)
+	await delay(1)
 }
 
