@@ -4,6 +4,10 @@
 //Program: Competition
 //Sphero Bolt Number:SB183f
 
+//Programmers: Patrick Condon -Partner: Michael McCarthy
+//Date: 5.26.23
+//Program: Competition
+//Sphero Bolt Name is SB-183F
 async function startProgram(){
 	//Make green text go across the screen saying "Start"
 	await speak("Start", true);
@@ -35,6 +39,9 @@ async function startProgram(){
 	await delay(1)
 	//turn and roll after red
 	await roll(135, 40,1)
+	await delay(1)
+	//straight away after the turn
+	await roll(40,100,.8)
 	await delay(1)
 }
 
