@@ -49,5 +49,13 @@
 	//straight away to get to green
 	await roll(225, 75,.53)
 	await delay(1)
+	//get centered on green
+	await roll(135, 30,1.25)
+	await delay(1)
+	//Make the LED color green
+	setMainLed({r:0, g:255, b:0})
+	//move away from center of green
+	await roll(135, 30,1.25)
+	await delay(1)
 }
 
