@@ -63,5 +63,7 @@
 	//skinny small straight
 	await roll(350,75,.7)
 	await delay(1)
+	//make last sound
+	await Sound.Animal.Donkey.play(true)
 }
 
