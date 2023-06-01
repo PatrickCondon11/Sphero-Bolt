@@ -27,5 +27,14 @@ async function startProgram(){
 	//fouth roll that goes to the red
 	await roll(225,100,.7)
 	await delay(2)
+	//5th roll that centers the bolt so we can tu
+	await roll(135, 30,1)
+	await delay(1)
+	//Make the LED color red
+	setMainLed({r:255, g:0, b:0})
+	await delay(1)
+	//turn and roll after red
+	await roll(135, 40,1)
+	await delay(1)
 }
 
