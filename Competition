@@ -43,5 +43,14 @@ async function startProgram(){
 	//straight away after the turn
 	await roll(40,100,.8)
 	await delay(1)
+	//move to get centered for penguin noise
+	await roll(135, 30,1.25)
+	await delay(1)
+	//make penguin noise
+	await Sound.Animal.Penguin.play(true)
+	await delay(1)
+	//move to get centereed for small straight away to get to green
+	await roll(135, 40,1,0.83)
+	await delay(1)
 }
 
